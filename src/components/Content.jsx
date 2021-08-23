@@ -6,7 +6,7 @@ function Content() {
     return (
         <section className="content">
             <Sidebar selectedTab={selectedTab} setselectedTab={setselectedTab} />
-            <Tasks />
+            <Tasks selectedTab={selectedTab} />
         </section>
 
 

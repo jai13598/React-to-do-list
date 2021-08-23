@@ -3,9 +3,9 @@ import { FaInbox, FaRegCalendarCheck, FaRegCalendar } from "react-icons/fa"
 function Sidebar({ selectedTab, setselectedTab }) {
     return (
         <div className="sidebar">
-            <div className={`active`} onClick={() => setselectedTab("INDEX")}>
+            <div className={`active`} onClick={() => setselectedTab("INBOX")}>
                 <FaInbox className="icon" />
-                Index
+                Inbox
             </div>
             <div onClick={() => setselectedTab("TODAY")} >
                 <FaRegCalendarCheck className="icon" />
